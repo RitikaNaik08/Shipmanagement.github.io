@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Management Dashboard</title>
+    <link rel="stylesheet" href="shipmanagement.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Ship Details</h1>
+        <form id="ship-details-form">
+            <label for="shipName">Ship Name:</label>
+            <input type="text" id="shipName" name="shipName" required>
+            <br>
+            <label for="shipId">ShipId:</label>
+            <input type="text" id="shipId" name="shipId" required>
+            <br>
+            <label for="product">Product:</label>
+            <input type="text" id="product" name="product" required>
+            <br>
+            <label for="arrivalTime">Arrival Time:</br></label>
+            <input type="datetime-local" id="arrivalTime" name="arrivalTime" required>
+            <br>
+            <label for="departureTime">Departure Time:</br></label>
+            <input type="datetime-local" id="departureTime" name="departureTime" required>
+            <br>
+            <label for="sourceLocation">Source Location:</label>
+            <input type="text" id="sourceLocation" name="sourceLocation" required>
+            <br>
+            <label for="destinationLocation">Destination Location:</label>
+            <input type="text" id="destinationLocation" name="destinationLocation" required>
+            <br>
+            <label for="agent">Agent:</label>
+            <input type="text" id="agent" name="agent" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="ship-details.js"></script>
+</body>
+</html>

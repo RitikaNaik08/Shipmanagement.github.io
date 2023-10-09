@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/775/799/desktop-wallpaper-cargo-ship-tanker-ship-boat-transport-container-freighter-and-mobile-backgrounds-merchant-ship.jpg');
+    background-size: cover; /* This makes the background image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed in place */
+}
+
+
+.container {
+    background-color: #b8b1b6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #03203f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #012041;
+}
